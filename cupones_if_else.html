@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos con cupón | Reto taller 2</title>
+</head>
+<body>
+    <header>
+        <h1>Descuentos de productos con cupones</h1>
+    </header>
+    <section>
+        <h2>Productos</h2>
+
+        <label for="inputPrecio">
+            Valor del producto:
+        </label>
+        <input id="inputPrecio" type="number"><br>
+
+        <label for="inputCupon">
+            Cupón (descuento):
+        </label>
+        <input id="inputCupon" type="text"><br>
+
+        <button type="button" onclick="calcularPrecioFinal()">
+            Calcular precio Final
+        </button>
+        <p id="resultado"></p>
+    </section>
+
+    <script src="./cupones.js"></script>
+
+    <!--<label for="inputCupon">Seleccione el cupón que va a aplicar:</label>
+    <input id="inputCupon" type="text"><br>
+    <select id="inputCupon" name="inputCupon">                
+    </select>-->
+</body>
+</html>
+
